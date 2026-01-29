@@ -1,0 +1,4 @@
+python\Scripts\activate
+python core\modelvol2.py
+python core/app.py
+deactivate
