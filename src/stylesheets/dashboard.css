@@ -1,0 +1,148 @@
+.dNavbar {
+    display: flex;
+}
+
+.dHeader {
+    color: black;
+    margin-left: 75px;
+    font-size: 23px;
+}
+
+.dContrib{
+    margin-left: auto;
+    font-size: 23px;
+    color: rgb(59, 59, 59);
+}
+
+.dUser {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.dDoc {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-right: 75px;
+}
+
+.dHeader:hover, .dUser:hover, .dDoc:hover, .dContrib:hover {
+    cursor: pointer;
+    opacity: .7;
+}
+
+.dPredHead {
+    display: flex;
+    justify-self: center;
+    font-size: 28px;
+    color: rgb(59, 59, 59);
+    margin-top: 175px;
+}
+
+.dInps {
+    display: flex;
+    justify-self: center;
+    margin-top: 25px;
+}
+
+.dFirstInps, .dSecondInps, .dThirdInps, .dFourthInps {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 55px 15px 55px;
+}
+
+.dSubmitBtn {
+    display: inline-block;
+}
+
+.dInput1Box, .dInput2Box, .dInput3Box, .dInput4Box, .dInput5Box, .dInput6Box, .dInput7Box, .dInput8Box, .dInput9Box, .dInput10Box, .dInput11Box, .dInput12Box, .dInput13Box {
+    width: 285px;
+    height: 30px;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: rgb(59, 59, 59);
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.dTextArea {
+    max-width: 293px;
+    min-width: 293px;
+    min-height: 80px;
+    max-height: 80px;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 5px;
+    color: rgb(59, 59, 59);
+    font-size: 15px;
+}
+
+.dFourthInps {
+    margin-top: 40px;
+}
+
+.dSubmitBtn {
+    display: flex;
+    justify-self: center;
+    margin-top: 10px;
+    width: 175px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 105, 131);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center; 
+    align-items: center;
+}
+
+.dSubmitBtn:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.contributionsChart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.complexityChart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.projectPredHeader {
+    font-size: 28px;
+    color: rgb(59, 59, 59);
+    margin-top: 375px;
+    display: flex;
+    justify-content: center;
+}
+
+.contributionsTitle, .complexityTitle {
+    font-size: 22px;
+    color: rgb(59, 59, 59);
+    margin-bottom: 5px;
+}
+
+.firstRow {
+    display: flex;
+}
+
+.primaryFieldHead {
+    font-size: 23px;
+    color: rgb(59, 59, 59);
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
